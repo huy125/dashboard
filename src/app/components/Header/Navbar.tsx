@@ -10,7 +10,7 @@ const Navbar= () => {
         setNav(!nav)
     }
     return (
-        <div className="fixed top-0 left-0 z-10 w-full duration-300 ease-in">
+        <div>
             <div className="m-auto flex items-center justify-between p-4 text-white">
                 <Link href={"/"}>
                     <h1 className="text-4xl font-bold">FirePhoenix</h1>

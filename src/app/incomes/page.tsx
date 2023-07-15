@@ -1,8 +1,8 @@
+import IncomeSource from "@/app/components/IncomeSource/IncomeSource";
+
 const IncomesPage = () => {
     return (
-        <div>
-            <h1>Incomes Page</h1>
-        </div>
+        <IncomeSource/>
     );
 };
 
