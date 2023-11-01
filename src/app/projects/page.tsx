@@ -1,9 +1,9 @@
-const ProjectsStatusPage = () => {
+import ProjectStatus from "@/app/components/ProjectStatus/ProjectStatus";
+
+const ProjectStatusPage = () => {
     return (
-        <div>
-            <h1>ProjectsStatusPage</h1>
-        </div>
+        <ProjectStatus/>
     );
 };
 
-export default ProjectsStatusPage;
+export default ProjectStatusPage;
